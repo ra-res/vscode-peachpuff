@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "Dark Lime Theme",
   "type": "dark",
   "colors": {
     "editor.background": "#181818",
@@ -34,7 +34,7 @@
       "name": "Storage",
       "scope": ["storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#88da3b"
+        "foreground": "#5eaf2c"
       }
     },
     {
@@ -46,7 +46,16 @@
     },
     {
       "name": "Function Class names",
-      "scope": ["function-call", "entity.name.function", "entity.name.type"],
+      "scope": [
+        "function-call",
+        "support.function.magic",
+        "entity.name.function",
+        "entity.name.type",
+        "storage.name.type.tsx",
+        "storage.name.type.ts",
+        "storage.name.type.js",
+        "storage.name.type.jsx"
+      ],
       "settings": {
         "foreground": "#71c7e1"
         // "foreground": "#ffffff"
@@ -82,8 +91,11 @@
         "support.function",
         "storage.modifier",
         "keyword",
-        "storage.type.function.js",
-        "keyword.other.special-method"
+        "storage.type.function",
+        "storage.type.js",
+        "keyword.other.special-method",
+        "storage.type.interface.ts",
+        "storage.type.interface.tsx"
       ],
       "settings": {
         "foreground": "#afb27b"
@@ -99,7 +111,8 @@
         "support.type",
         "entity.other.inherited-class",
         "keyword.other.unit",
-        "keyword.other"
+        "keyword.other",
+        "storage.type.class"
       ],
       "settings": {
         "foreground": "#afb27b"

@@ -1,7 +1,7 @@
 {
-    "name": "nice-and-simple",
-    "displayName": "nice-and-simple",
-    "description": "",
+    "name": "Dark Lime Theme",
+    "displayName": "Dark Lime Theme",
+    "description": "Tired of themes that are too bright and too colourful? Look no further!",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.56.0"
@@ -12,7 +12,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "nice",
+                "label": "Dark Lime Theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/nice-color-theme.json"
             }
