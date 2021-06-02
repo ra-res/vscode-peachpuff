@@ -14,7 +14,7 @@
             {
                 "label": "Dark Lime Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/nice-color-theme.json"
+                "path": "./themes/dark-lime-theme.json"
             }
         ]
     }

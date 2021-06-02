@@ -10,7 +10,11 @@
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": [
+        "comment",
+        "string.quoted.docstring.multi.python",
+        "punctuation.definition.comment"
+      ],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#5eaf2c"
@@ -58,7 +62,6 @@
       ],
       "settings": {
         "foreground": "#71c7e1"
-        // "foreground": "#ffffff"
       }
     },
     {
