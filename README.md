@@ -2,9 +2,9 @@
 
 ## Dark Lime Theme
 
-Are you tired of themes that are too bright or too colourful? Look no further!
+Are you tired of themes that are too bright? Look no further!
 
-![Example Code](https://github.com/ra-res/dark-lime-theme-vscode/blob/master/imgs/code-examples.png?raw=true)
+![Example Code](https://raw.githubusercontent.com/ra-res/dark-lime-theme-vscode/master/imgs/code-example.png)
 
 ### For more information
 
