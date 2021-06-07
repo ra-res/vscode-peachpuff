@@ -1,6 +1,4 @@
-# README
-
-## Dark Lime Theme
+# Dark Lime Theme
 
 Are you tired of themes that are too bright? Look no further!
 

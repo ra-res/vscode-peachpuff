@@ -38,7 +38,7 @@
       "name": "Storage",
       "scope": ["storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#5eaf2c"
+        "foreground": "#AFB27B"
       }
     },
     {
@@ -58,7 +58,10 @@
         "storage.name.type.tsx",
         "storage.name.type.ts",
         "storage.name.type.js",
-        "storage.name.type.jsx"
+        "storage.name.type.jsx",
+        "storage.type.annotation",
+        "punctuation.definition.annotation",
+        "keyword.other.documentation"
       ],
       "settings": {
         "foreground": "#71c7e1"
@@ -130,7 +133,9 @@
         "markup.heading",
         "markup.inserted.git_gutter",
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
-        "constant.numeric"
+        "constant.numeric",
+        "keyword.other.import",
+        "keyword.other.package"
       ],
       "settings": {
         "foreground": "#bb584d"
@@ -157,6 +162,17 @@
       "scope": ["support.type"],
       "settings": {
         "foreground": "#99ee65"
+      }
+    },
+    {
+      "name": "CSS numbers",
+      "scope": [
+        "punctuation.terminator.rule.css",
+        "constant.other.rgb-value.css",
+        "keyword.other.unit.px.css"
+      ],
+      "settings": {
+        "foreground": "#BB584D"
       }
     },
     {
