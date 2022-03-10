@@ -1,7 +1,7 @@
 {
-    "name": "Dark Lime Theme",
-    "displayName": "Dark Lime Theme",
-    "description": "Tired of themes that are too bright and too colourful? Look no further!",
+    "name": "peachpuff",
+    "displayName": "peachpuff",
+    "description": "A peachpuff syntax theme adapted from vim's peachpuff colour scheme",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.56.0"
@@ -12,9 +12,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Dark Lime Theme",
+                "label": "peachpuff",
                 "uiTheme": "vs-dark",
-                "path": "./themes/dark-lime-theme.json"
+                "path": "./themes/peachpuff.json"
             }
         ]
     }
